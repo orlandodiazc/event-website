@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="El Carnaval de Barranquilla es la fiesta más grande de Colombia, que promueve la riqueza cultural del Caribe colombiano">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="style_desktop.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <script src="scripts/mobileMenu.js" defer></script>
+  <script src="scripts/loadImportantFigures.js" defer></script>
+  <title>Barranquilla's Carnival</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container hidden-desktop">
+      <button  type="button" class="mobile-toggle-nav" aria-label="Menu" aria-expanded="false"></button>
+    </div>
+    <div data-visible="false" class="main-header-cont">
+      <div class="primary-header">
+        <div class="primary-nav-cont">
+          <a href="#">
+            <img class="header-logo hidden-mobile" src="images/desktop/header-logo-export.webp" alt="Header carnival logo">
+          </a>
+          <nav class="primary-nav header-nav">
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <button type="button" class="btn-tickets">Buy Tickets</button>
+          </nav>
+        </div>
+      </div>
+      <div class="secondary-header">
+        <div class="secondary-nav-cont container">
+          <div class="nav-icon-cont">
+            <a href="#"><img src="images/icons/header/facebook-f.svg" alt="Facebook Link"></a>
+            <a href="#"><img src="images/icons/header/twitter.svg" alt="Twitter Link"></a>
+          </div>
+          <nav class="secondary-nav header-nav">
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">My Page</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="headline">
+      <div class="container headline-cont">
+        <p class="text-accent headline-slogan">“Anyone who lives it, is who enjoys it”</p>
+        <h1 class="text-accent headline-title">CARNAVAL DE BARRANQUILLA 2023</h1>
+        <div class="headline-p-cont">
+          <p>The Barranquilla Carnival is a folkloric and cultural event celebrated in Colombia. Nearly 3 million people, between
+          visitors and locals, participate annually in the festivities.</p>
+        </div>
+        <h2 class="headline-h2-date">2023.02.18(SAT) ~ 21(TUE)</h2>
+        <h4>@ Barranquilla, Colombia - Via 40 and more</h4>
+      </div>
+    </section>
+    <section class="program">
+      <div class="container">
+        <h1 class="section-title">Schedule</h1>
+        <div class="program-event-cont">
+          <div class="program-event">
+            <h2 class="program-event-h2">02/18</h2>
+            <h2 class="text-accent program-event-h2">Battle of Flowers</h2>
+            <p>First of the four days of celebration, the carnival's central act.</p>
+          </div>
+          <div class="program-event">
+            <h2 class="program-event-h2">02/19</h2>
+            <h2 class="text-accent program-event-h2">Tradition Parade</h2>
+            <p>Parade for traditional folkloric dancing groups.</p>
+          </div>
+          <div class="program-event">
+            <h2 class="program-event-h2">02/20</h2>
+            <h2 class="text-accent program-event-h2">Great Fantasy Parade</h2>
+            <p>This parade shows innovating choreographic mixtures.</p>
+          </div>
+          <div class="program-event">
+            <h2 class="program-event-h2">02/21</h2>
+            <h2 class="text-accent program-event-h2">Burial of Joselito</h2>
+            <p>The last day of Carnival. It marks the conclusion of the festivities.</p>
+          </div>
+        </div>
+        <button type="button" class="btn-primary hidden-desktop">Tickets Available Now</button>
+        <div class="schedule-link-cont"><a class="schedule-link" href="#">SEE THE WHOLE SCHEDULE</a></div>
+      </div>
+    </section>
+    <section class="important-figures">
+      <div class="container">
+        <h1 class="section-title">Carnival Kings and Queens</h1>
+        <div class="person-card-cont">
+        </div>
+
+        <button type="button" class="btn-secondary hidden-desktop">
+          MORE<img src="images/icons/more_loader/chevron-down-icon.svg" alt="Open About Page">
+        </button>
+        
+        <template id="template-person-card">
+          <div class="person-card">
+            <img src="" alt="Person Image">
+            <div class="person-info">
+              <h3 class="person-name"></h3>
+              <h4 class="text-accent person-position"></h4>
+              <p class="person-p"></p>
+            </div>
+          </div>
+        </template>
+      </div>
+    </section>
+    <section class="partners hidden-mobile">
+      <div class="container">
+        <h1 class="section-title">Partners</h1>
+        <div class="partner-images-cont">
+          <div class="partner-img">
+            <img src="images/about/partners/aguila.png" alt="Partner Aguila Logo">
+          </div>
+          <div class="partner-img">
+            <img src="images/about/partners/aire.png" alt="Partener AIR-E Logo">
+          </div>
+          <div class="partner-img">
+            <img src="images/about/partners/bancolombia.png" alt="Partner Bancolombia Logo">
+          </div>
+          <div class="partner-img">
+            <img src="images/about/partners/tecnoglass.png" alt="Partner Tecnoglass Logo">
+          </div>
+          <div class="partner-img">
+            <img src="images/about/partners/tigo.png" alt="Partner Tigo Logo">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="hidden-mobile">
+    <div class="container">
+      <div class="footer-cont">
+        <img src="images/about/footer-logo.png" alt="Carnival Logo">
+        <div class="copyright-info">
+          <p>2021 Orlando Diaz</p>
+          <p>MIT Licensed</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
