@@ -67,6 +67,7 @@ button:hover {
 
 .main-header-cont {
   position: fixed;
+  overflow: auto;
   display: none;
   flex-direction: column;
   gap: 2rem;
