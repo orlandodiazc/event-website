@@ -27,6 +27,8 @@ After you're finished please remove all the comments and instructions!
 
 **Event Page** is a HTML/CSS and basic JavaScript capstone project.
 
+[Live Website](https://tubular-dasik-8676ff.netlify.app/)
+
 ## Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
