@@ -2,12 +2,14 @@
   --primary-color: #272a31;
   --secondary-color: #d3d3d3;
   --accent-color: #ec5242;
+  --neutral-color-300: #595959;
 }
 
 html {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
+  color: var(--primary-color);
 }
 
 *,
@@ -34,7 +36,6 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
 }
 
 button {
@@ -60,7 +61,7 @@ button:hover {
 
 /* HEADER */
 
-.main-header-cont[data-visible="true"] {
+.main-header-cont[data-visible='true'] {
   display: flex;
 }
 
@@ -83,14 +84,14 @@ button:hover {
   gap: 0.9rem;
 }
 
+.main-header-cont a {
+  color: var(--primary-color);
+}
+
 .primary-nav ul {
   flex-direction: column;
   text-decoration: none;
   font-size: 2rem;
-}
-
-.header-nav a {
-  color: var(--primary-color);
 }
 
 .mobile-toggle-nav {
@@ -102,11 +103,11 @@ button:hover {
   left: 1rem;
   aspect-ratio: 1;
   background-color: transparent;
-  background-image: url("images/icons/menus_modals/menu-icon.svg");
+  background-image: url('images/icons/menus_modals/menu-icon.svg');
 }
 
-.mobile-toggle-nav[aria-expanded="true"] {
-  background-image: url("images/icons/menus_modals/close-icon.svg");
+.mobile-toggle-nav[aria-expanded='true'] {
+  background-image: url('images/icons/menus_modals/close-icon.svg');
 }
 
 .btn-tickets {
@@ -121,7 +122,6 @@ button:hover {
 
 .btn-tickets:hover {
   background-color: #272a3180;
-  box-shadow: 0 2px 4px #272a3180;
   color: #fff;
 }
 
@@ -151,12 +151,12 @@ button:hover {
 
 .headline {
   padding: 5rem 0 2rem 0;
-  background: linear-gradient(white, #f7f7f7);
+  background: linear-gradient(#ececee, white);
 }
 
 .headline-title {
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .headline-p-cont {
@@ -169,6 +169,11 @@ button:hover {
 
 .headline-h2-date {
   font-weight: 900;
+  color: var(--neutral-color-300);
+}
+
+.headline-cont h4 {
+  color: var(--neutral-color-300);
 }
 
 /* SCHEDULE */
@@ -401,6 +406,11 @@ footer {
   padding: 2rem 0;
 }
 
+.footer-about {
+  background-color: var(--primary-color);
+  color: white;
+}
+
 .footer-cont {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -410,6 +420,14 @@ footer {
   margin: 0 auto;
 }
 
+.footer-cont-about {
+  background-color: var(--primary-color);
+}
+
 .hidden-mobile {
+  display: none;
+}
+
+.hidden {
   display: none;
 }

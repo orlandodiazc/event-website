@@ -60,7 +60,8 @@
   position: static;
   gap: 0;
   background: none;
-  padding: 0;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 2px hsl(240, 6%, 70%);
   order: 2;
 }
 
