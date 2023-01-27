@@ -150,6 +150,18 @@ button:hover {
 
 /* HEADLINE */
 
+.headline-cont {
+  display: grid;
+}
+
+.headline-cont h4 {
+  color: var(--neutral-color-300);
+}
+
+.headline-slogan {
+  order: -1;
+}
+
 .headline {
   padding: 5rem 0 2rem 0;
   background: linear-gradient(#ececee, white);
@@ -157,7 +169,7 @@ button:hover {
 
 .headline-title {
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 2rem
 }
 
 .headline-p-cont {
@@ -170,10 +182,6 @@ button:hover {
 
 .headline-h2-date {
   font-weight: 900;
-  color: var(--neutral-color-300);
-}
-
-.headline-cont h4 {
   color: var(--neutral-color-300);
 }
 
