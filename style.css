@@ -401,8 +401,10 @@ button:hover {
 }
 
 .partner-img {
-  flex-basis: 25%;
-  background-color: white;
+  display: flex;
+  flex-basis: 100%; 
+  align-items: center;
+  background-color: none;
 }
 
 .partner-img img {
@@ -423,6 +425,7 @@ footer {
 .footer-cont {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   align-items: center;
   width: 75%;
   max-width: 500px;
