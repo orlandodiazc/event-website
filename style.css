@@ -403,7 +403,7 @@ button:hover {
 
 .partner-img {
   display: flex;
-  flex-basis: 100%; 
+  flex-basis: 100%;
   align-items: center;
   justify-content: center;
   background-color: none;
