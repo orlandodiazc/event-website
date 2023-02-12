@@ -405,6 +405,7 @@ button:hover {
   display: flex;
   flex-basis: 100%; 
   align-items: center;
+  justify-content: center;
   background-color: none;
 }
 
