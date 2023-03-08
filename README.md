@@ -59,7 +59,7 @@ To get a local copy up and running, follow these steps.
 
 👤 **Orlando Diaz**
 
-- GitHub: [@githubhandle](https://github.com/ditod1)
+- GitHub: [@orlandodiazc](https://github.com/ditod1)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/orlando-diaz-conde)
 
 <!-- FUTURE FEATURES -->
